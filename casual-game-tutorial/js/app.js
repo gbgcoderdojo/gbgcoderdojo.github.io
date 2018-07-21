@@ -39,10 +39,41 @@ var challenges = [
     description: "Skriv ett program där en boll åker runt diagonalt över skärmen (lika stor ändring i x- som y-led). När man vänsterklickar med muspekaren på bollen försvinner den och börjar om på slumpartad position på skärmen. Skriv ut hur många poäng spelaren har på skärmen.",
     achiements: [
         "rita cirkelskivor",
+        "kollision punkt i cirkel",
         "x/y animation längs linje",
         "visa och räkna poäng",
         "musklick",
         "slumptal"
+    ]
+  },
+  {
+    challenge: "Regnig stad",
+    image: "cityrain",
+    description: "Bygg en stad i regn med hjälp av en inladdad bakgrundsbild och vertikalt regn i form av små streck.",
+    achiements: [
+        "rita linjer",
+        "ladda och visa bilder",
+        "dynamiskt antal entiteter"
+    ]
+  },
+  {
+    challenge: "Studsboll",
+    image: "bouncingball",
+    description: "Simulera en studsande boll, med hjälp av acceleration i y-led (gravitation). När bollen rör marken byter y-rörelsen riktning på enklaste sätt. Bollen ska ritas ut som en bild som roteras (rotation i samma riktning som bollen rör sig).",
+    achiements: [
+        "rita roterade biler",
+        "accelerationsmekanik"
+    ]
+  },
+  {
+    challenge: "Sparka bollen!",
+    image: "kicktheball",
+    description: "I detta minispel styr man en gubbe som kan stå stilla, gå vänster och gå höger, samt sparka. En stillaliggande boll animeras om den sparkas (fotpunkt inom bollcirkel), men bollen bromsar in och stannar upp efterhand tiden går. Om bollen faller ned genom en korg - ritad i bakgrundsbild - får spelaren poäng. Vid 5 poäng byts skärmen till 'GAME OVER' tills dess man trycker någon knapp, och spelet börjar om.",
+    achiements: [
+        "avancerad animation",
+        "spelhändelser",
+        "retardation",
+        "hantera flera spelskärmar"
     ]
   }
 ]
