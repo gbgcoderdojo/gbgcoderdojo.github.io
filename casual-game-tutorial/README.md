@@ -12,9 +12,12 @@ T.ex. skulle du kunna implementera övningarna i valfritt språk/miljö/teknik o
 Hur funkar guiden?
 ------------------
 
-Detta repo innehåller källkoden till guiden, som kommer publiceras på webben när det är moget för det.
+Teknik för att rendera guiden är [https://vuejs.com](Vue.js) + HTML/CSS/JS.
 
-Teknik som används är HTML+CSS+JS+Vue.js.
+Vid push till detta repo, publiceras resultatet på [https://gbgcoderdojo.github.io](CoderDojo Gbgs github page). 
+
+För att utveckla lokalt, öppna casual-game-tutorial/index.html i valfri modern browser.
+
 
 
 
