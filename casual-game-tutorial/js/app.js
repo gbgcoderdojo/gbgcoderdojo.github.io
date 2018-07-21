@@ -22,6 +22,28 @@ var challenges = [
         "tangent ned-upp",
         "hantera true-false variabler"
     ]
+  },
+  {
+    challenge: "Animerad box",
+    image: "animatedbox",
+    description: "Skriv ett program som ritar en fyrkantig låda som rör sig fram-och-tillbaka horisontellt över skärmen. När den nuddar endera sidan, vänder den riktning.",
+    achiements: [
+        "rita rektanglar",
+        "enkel animation",
+        "enkel kantkollission"
+    ]
+  },
+  {
+    challenge: "Skjut bollen!",
+    image: "shoottheball",
+    description: "Skriv ett program där en boll åker runt diagonalt över skärmen (lika stor ändring i x- som y-led). När man vänsterklickar med muspekaren på bollen försvinner den och börjar om på slumpartad position på skärmen. Skriv ut hur många poäng spelaren har på skärmen.",
+    achiements: [
+        "rita cirkelskivor",
+        "x/y animation längs linje",
+        "visa och räkna poäng",
+        "musklick",
+        "slumptal"
+    ]
   }
 ]
 
