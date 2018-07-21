@@ -14,7 +14,7 @@ Hur funkar guiden?
 
 Teknik för att rendera guiden är [Vue.js](https://vuejs.org/) + HTML/CSS/JS.
 
-Vid push till detta repo, publiceras resultatet på (CoderDojo Gbgs github page)[https://gbgcoderdojo.github.io].
+Vid push till detta repo, publiceras resultatet på [CoderDojo Gbgs github page](https://gbgcoderdojo.github.io).
 
 För att utveckla lokalt, öppna casual-game-tutorial/index.html i valfri modern browser.
 
