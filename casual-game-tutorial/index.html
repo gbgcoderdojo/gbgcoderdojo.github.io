@@ -3,13 +3,27 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Casual 2D game challenge</title>
+  <!-- <meta http-equiv="refresh" content="3"> -->
+
+  <title>2D-spel utmaningar</title>
   <meta name="description" content="Casual 2D game challenge">
   <meta name="author" content="Olof@CoderDojoGbg">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <script src="https://unpkg.com/vue"></script>
 </head>
 <body>
-  <script src="js/app.js"></script>
+  <div id="app">
+    <h1>Kodutmaningar!</h1>
+    <div v-for="c in challenges">
+        <h3>Utmaning: {{ c.challenge }}</h3>
+        <img v-if="c.image" :src="c.image">
+        Låser upp:
+        <ul v-for="a in c.achiements">
+            <li>{{ a }}</li>
+        </ul>
+    </div>
+  </div>
+  <script src="js/app.js?v=1.0"></script>
 </body>
 </html>
 
