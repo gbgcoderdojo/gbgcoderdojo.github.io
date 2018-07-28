@@ -3,27 +3,53 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <!-- <meta http-equiv="refresh" content="5"> -->
+  <!-- <meta http-equiv="refresh" content="3"> -->
 
   <title>2D-spel - Utmaningar</title>
   <meta name="description" content="Casual 2D-game challenges">
   <meta name="author" content="Olof@CoderDojoGbg">
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
   <script src="https://unpkg.com/vue"></script>
 </head>
 <body>
-  <div id="app">
-      <h1>Kodutmaningar!</h1>
-      <div v-for="(c, i) in challenges">
+
+
+  <div id="app" class="container">
+
+    <div class="row">
+      <div class="twelve columns">
+        <h1>Kodutmaningar!</h1>
+      </div>
+    </div>
+
+    <div v-for="(c, i) in challenges">
+
+      <div class="row">
+        <div class="twelve columns">
           <h3>Utmaning {{ i+1 }}: {{ c.challenge }}</h3>
-          <img v-if="c.image" :src="getImageURL(c.image)">
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="eight columns">
           <p>{{ c.description }}</p>
           Låser upp:
           <ul v-for="a in c.achiements">
               <li>{{ a }}</li>
           </ul>
+        </div>
+
+        <div class="four columns">
+          <img width="100%" v-if="c.image" :src="getImageURL(c.image)">
+        </div>
+
       </div>
+
+    </div>
   </div>
+
+
   <script src="js/app.js?v=1.0"></script>
 </body>
 </html>
