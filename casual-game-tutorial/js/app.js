@@ -66,14 +66,25 @@ var challenges = [
     ]
   },
   {
-    challenge: "Sparka bollen!",
+    challenge: "Sparka bollen",
     image: "kicktheball",
     description: "I detta minispel styr man en gubbe som kan stå stilla, gå vänster och gå höger, samt sparka. En stillaliggande boll animeras om den sparkas (fotpunkt inom bollcirkel), men bollen bromsar in och stannar upp efterhand tiden går. Om bollen faller ned genom en korg - ritad i bakgrundsbild - får spelaren poäng. Vid 5 poäng byts skärmen till 'GAME OVER' tills dess man trycker någon knapp, och spelet börjar om.",
     achiements: [
-        "avancerad animation",
+        "animation",
         "spelhändelser",
         "retardation",
         "hantera flera spelskärmar"
+    ]
+  },
+  {
+    challenge: "Dogfight",
+    image: "dogfight",
+    description: "Bygg ett helt 2D-spel som du kan spela med en kompis! I detta spel duellerar två småflygplan. De har oändligt med skott, och kan träffas 3 gånger innan de exploderar. Om flygplanen flyger för brant uppåt, eller nuddar toppen av skärmen, tappar de flygförmågan och störtar utan kontroll nedåt. De kan dock återfå flygförmågan om spelaren riktar flygplanets nos rakt neråt och tillräckligt hög hastighet uppnås. Flygplanen startar på varsin liten flygplats på marken. Sprinkla luften med rökpuffar, smådelar och explosioner och ljudeffekter så att det blir en riktigt kul spelupplevelse!",
+    achiements: [
+        "avancerad dynamik",
+        "komplett spel",
+        "2 spelare samtidigt",
+        "dekorera med effekter"
     ]
   }
 ]
