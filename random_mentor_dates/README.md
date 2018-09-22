@@ -8,11 +8,16 @@ Hur kör man scriptet?
 
 Om du har Python3:
 
-     $ cd src
-     $ python main.py
+    $ cd src
+    $ python main.py
 
 Om du har docker:
 
-     $ docker build -t random_mentor_dates_image .
-     $ docker run -it random_mentor_dates_image
+    $ docker build -t random_mentor_dates_image .
+    $ docker run -it random_mentor_dates_image
+
+Om du har make och docker:
+
+	$ make build
+	$ make run
 
