@@ -1,7 +1,7 @@
 .PHONY: build run
 
 build:
-	docker build -t random_mentor_dates_image .
+	docker build -t random-mentor-dates .
 
 run:
-	docker run -it random_mentor_dates_image
+	docker run -it random-mentor-dates
