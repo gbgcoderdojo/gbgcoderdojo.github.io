@@ -34,6 +34,17 @@ var challenges = [
     ]
   },
   {
+    challenge: "Regnig stad",
+    image: "cityrain",
+    description: "Bygg en stad i regn med hjälp av en inladdad bakgrundsbild och vertikalt regn i form av små streck.",
+    achiements: [
+        "rita linjer",
+        "ladda och visa bilder",
+        "dynamiskt antal entiteter",
+        "slumptal"
+    ]
+  },
+  {
     challenge: "Skjut bollen!",
     image: "shoottheball",
     description: "Skriv ett program där en boll åker runt diagonalt över skärmen (lika stor ändring i x- som y-led). När man vänsterklickar med muspekaren på bollen försvinner den och börjar om på slumpartad position på skärmen. Skriv ut hur många poäng spelaren har på skärmen.",
@@ -42,18 +53,7 @@ var challenges = [
         "kollision punkt i cirkel",
         "x/y animation längs linje",
         "visa och räkna poäng",
-        "musklick",
-        "slumptal"
-    ]
-  },
-  {
-    challenge: "Regnig stad",
-    image: "cityrain",
-    description: "Bygg en stad i regn med hjälp av en inladdad bakgrundsbild och vertikalt regn i form av små streck.",
-    achiements: [
-        "rita linjer",
-        "ladda och visa bilder",
-        "dynamiskt antal entiteter"
+        "musklick"
     ]
   },
   {
