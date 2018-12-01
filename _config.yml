@@ -6,7 +6,7 @@ description: Vi vill inspirera barn och ungdomar att uttrycka sig och vara kreat
 
 display_footer: initial  #change this to 'none' if you want to hide the footer copyright text
 
-theme: jekyll-material-theme
+remote_theme: jekyll-material-theme
 
 parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
 parallax_image_two: assets/images/startup3.jpg
