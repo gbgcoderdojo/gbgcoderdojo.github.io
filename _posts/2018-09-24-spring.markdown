@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Våren 2019"
+categories: introduktion
+---
+**Varannan lördag mellan 12 och 13.30 med start 19/1 kör vi kodklubb på Mölndals stadsbibliotek. Anmälan till molndals.stadsbibliotek@molndal.se eller på 031-315 16 00.**
+
+Besök gärna [deras hemsida][bibblan] för mer information.
+
+[bibblan]: https://bibliotek.molndal.se/web/arena/start

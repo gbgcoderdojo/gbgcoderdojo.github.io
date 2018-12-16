@@ -1,4 +1,4 @@
-exclude: [casual-game-tutorial, random_mentor_dates] 
+exclude: [casual-game-tutorial, random_mentor_dates]
 title: CoderDojo Göteborg
 name: CoderDojo Göteborg
 email: gothenburg@coderdojo.com
@@ -35,7 +35,7 @@ project_three_icon: directions_walk
 
 project_four: Skapa ett spel från grunden
 project_four_description: Ett gäng utmaningar som, efter genomförande, förhoppningsvis gett tillräckligt med verktyg för att bygga ett enkelt 2D-spel!
-project_four_url: https://coderdojogbg.org/casual-game-tutorial/index.html
+project_four_url: https://coderdojogbg.org/casual-game-tutorial/
 project_four_icon: directions_run
 
 icon_size: 50 # font-size of icons in px
@@ -43,7 +43,7 @@ colored: colored # Leave blank for black and white icons
 
 project_button: Ta mig dit
 
-github: https://github.com/gbgcoderdojo/gbgcoderdojo.github.io
+github: https://github.com/gbgcoderdojo/
 facebook: https://www.facebook.com/coderdojogothenburg
 
 baseurl: # If your site is located at /blog or /home, change it here, otherwise leave it empty
