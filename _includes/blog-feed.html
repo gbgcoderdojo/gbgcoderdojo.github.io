@@ -2,12 +2,9 @@
   {% for post in site.posts %}
 
   <div class="col s12 m6">
+    <h5 style="color:black">{{ post.title | escape }}</h5>
     <div class="card">
-      <div class="card-image">
-        <img src="{{post.image}}">
-        <span class="card-title"><a style="color:black">{{ post.title | escape }}</a></span>
-        <a id="{{post.url}}" class="btn-floating halfway-fab waves-effect waves-light red" href="{{ post.url | relative_url }}"><i class="material-icons">more_horiz</i></a>
-      </div>
+      <a id="{{post.url}}" class="btn-floating halfway-fab waves-effect waves-light red" href="{{ post.url | relative_url }}"><i class="material-icons">more_horiz</i></a>
       <div class="card-content">
         <p>{{post.excerpt}}</p>
       </div>
