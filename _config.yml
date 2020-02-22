@@ -29,7 +29,7 @@ project_two_icon: flight_takeoff
 
 project_three: Nästa steg
 project_three_description: Nästa steg är att lära sig ett programmeringsspråk. Programmeringsspråket Processing är liksom Scratch utvecklat vid MIT och en bra övergång från blockprogrammering. Med hjälp av ett javascript bibliotek så kan du skriva Processingliknande kod direkt i din webbläsare och behöver inte installera något på din dator.
-project_three_url: http://coderdojo.se/lar-dig-koda/spel/processing/
+project_three_url: http://cmc.education/p5js/
 project_three_icon: directions_walk
 
 
